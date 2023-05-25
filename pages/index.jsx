@@ -1,18 +1,21 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 // Layout
 import Layout from "@/src/Layout";
 
 // components
 import Hero from "@/src/components/hero";
+import CardList from "@/src/components/cardList";
 
 export default function Home() {
+  const [data, setData] = useState([]);
+
   useEffect(() => {
-    fetch("https://dummyjson.com/products")
+    fetch("https://fakestoreapi.com/products")
       .then((res) => res.json())
-      .then(console.log);
+      .then((data) => setData(data));
   }, []);
 
   return (
@@ -26,6 +29,7 @@ export default function Home() {
       <Layout>
         <main className={styles.main}>
           <Hero />
+          <CardList data={data} />
         </main>
       </Layout>
     </>

@@ -1,0 +1,76 @@
+.Card {
+  width: 100%;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 20px;
+  cursor: pointer;
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .ctaButton {
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 0;
+    background-color: #02cf87;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    p:hover {
+      text-decoration: underline;
+    }
+
+    .ctaButton {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .Card {
+    flex-direction: row;
+    justify-content: space-between;
+
+    .text {
+      width: 50%;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      border: 1px solid rgb(210, 210, 210);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      width: 30%;
+
+      p {
+        width: 100px;
+      }
+
+      .ctaButton {
+        width: 250px;
+        padding: 10px;
+      }
+    }
+  }
+}
