@@ -1,4 +1,5 @@
 import styles from "./index.module.scss";
+import Link from "next/link";
 
 const Card = ({ product }) => {
   const { title, price, category, description, image } = product;

@@ -9,7 +9,7 @@ const Header = ({ setIsOpenModal }) => {
 
   return (
     <div className={styles.Header}>
-      <h3>LOGO</h3>
+      <img className={styles.logo} src="./img/logo4.png" alt="logo" />
       <ul className={styles.navBar}>
         <li>Home</li>
         <li>Categorie</li>
