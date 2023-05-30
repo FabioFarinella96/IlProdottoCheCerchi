@@ -14,7 +14,6 @@ const Header = ({ setIsOpenModal }) => {
         <li>Home</li>
         <li>Categorie</li>
         <li>Chi siamo</li>
-        <li>Testimonials</li>
       </ul>
       <div className={styles.searchBar}>
         <BsSearch className={styles.searchIcon} />

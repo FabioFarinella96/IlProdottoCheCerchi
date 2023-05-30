@@ -1,13 +1,16 @@
 .Header {
   width: 100%;
-  height: 13vh;
+  height: 12vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
 
   .logo {
-    width: 100px;
+    width: 80px;
     object-fit: cover;
     cursor: pointer;
   }
@@ -36,7 +39,7 @@
       height: 30px;
       border: 0;
       outline: none;
-      background-color: rgb(238, 238, 238);
+      background-color: rgb(247, 247, 247);
       border-radius: 12px;
       padding: 20px 15px;
     }
@@ -67,7 +70,7 @@
         height: 30px;
         border: 0;
         outline: none;
-        background-color: rgb(238, 238, 238);
+        background-color: rgb(247, 247, 247);
         border-radius: 12px;
         padding: 20px 15px;
       }

@@ -4,12 +4,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(236, 236, 236);
-  border-bottom: 1px solid #b7b7b7;
+  background-color: rgb(247, 247, 247);
+  border-bottom: 1px solid #dcdcdc;
 
   .navBar {
     display: flex;
     align-items: center;
+    background-color: rgb(247, 247, 247);
     justify-content: center;
     gap: 40px;
     list-style: none;

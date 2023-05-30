@@ -4,7 +4,10 @@ import Card from "../card/Card";
 const CardList = ({ data }) => {
   return (
     <div className={styles.CardList}>
-      {data && data.map((product) => <Card product={product} />)}
+      <h3>Top di oggi</h3>
+      {data.map((product) => (
+        <Card product={product} />
+      ))}
     </div>
   );
 };
