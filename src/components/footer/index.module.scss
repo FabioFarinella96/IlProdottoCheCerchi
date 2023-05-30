@@ -1,0 +1,38 @@
+.footerContainer{
+    height: 200px;
+    width: auto;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    div{
+        background-color: white;
+    }
+    h2{
+        background-color: white;
+        margin-bottom: 1em;
+    }
+    p{
+        background-color: white;
+    }
+    .ulListFooter{
+        background-color: white;
+        li{
+            background-color: white;    
+        }
+        a{
+            background-color: white;
+            text-decoration: none;
+        }
+    }
+    .imageFooter{
+        display: flex;
+        align-items: center;
+       .imgFooter{
+        width: 140px;
+        height: 40px;
+        object-fit: cover;
+        display: flex;
+       }
+    }
+}
