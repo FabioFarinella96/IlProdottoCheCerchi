@@ -11,6 +11,7 @@
   background-color: white;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+
   .logo {
     width: 80px;
     object-fit: cover;
@@ -99,12 +100,13 @@
         cursor: pointer;
 
         &:first-child {
+          color: white;
           background-color: #02cf87;
-          padding: 8px 15px;
+          padding: 5px 15px;
           border-radius: 20px;
 
           &:hover {
-            color: white;
+            color: rgb(16, 16, 16);
           }
         }
 
