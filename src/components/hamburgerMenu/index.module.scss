@@ -4,29 +4,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(247, 247, 247);
   border-bottom: 1px solid #dcdcdc;
 
   .navBar {
     display: flex;
     align-items: center;
-    background-color: rgb(247, 247, 247);
     justify-content: center;
     gap: 40px;
     list-style: none;
     cursor: pointer;
     padding: 0;
 
-    li {
-      &:first-child {
-        background-color: #02cf87;
-        padding: 5px 15px;
-        border-radius: 20px;
-
-        &:hover {
-          color: white;
-        }
-      }
+    .nav {
+      text-decoration: none;
+      color: rgb(21, 21, 21);
     }
 
     li:hover {

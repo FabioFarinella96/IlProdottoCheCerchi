@@ -1,0 +1,78 @@
+.ChiSiamo {
+  width: 100%;
+  margin-top: 20px;
+  padding: 0 20px;
+
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+
+    .card {
+      width: 100%;
+      border: 1px solid rgb(189, 189, 189);
+      border-radius: 20px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 23px;
+      text-align: center;
+
+      .icon {
+        font-size: 3.5em;
+        color: #02cf87;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .title {
+    color: rgb(46, 46, 46);
+  }
+
+  h2 {
+    font-size: 1.5em;
+    text-align: center;
+
+    span {
+      color: #02cf87;
+    }
+  }
+
+  .text {
+    line-height: 1.8;
+  }
+
+  .regrets {
+    margin: 30px 0;
+    line-height: 1.8;
+
+    span {
+      font-weight: 700;
+
+      span {
+        color: #02cf87;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .ChiSiamo {
+    .cards {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+
+      .card {
+        width: 40%;
+        height: 600px;
+      }
+    }
+  }
+}

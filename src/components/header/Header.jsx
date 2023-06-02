@@ -6,17 +6,21 @@ import Link from "next/link";
 const Header = ({ setIsOpenModal }) => {
   const onHandleClick = () => {
     setIsOpenModal((prev) => !prev);
-  };  
+  };
 
   return (
     <div className={styles.Header}>
       <Link href="/">
-      <img className={styles.logo} src="./img/logo4.png" alt="logo" />
+        <img className={styles.logo} src="./img/logo4.png" alt="logo" />
       </Link>
       <ul className={styles.navBar}>
-        <li>Home</li>
+        <Link className={styles.nav} href="/">
+          <li>Home</li>
+        </Link>
         <li>Categorie</li>
-        <li>Chi siamo</li>
+        <Link className={styles.nav} href="chi-siamo">
+          <li>Chi siamo</li>
+        </Link>
       </ul>
       <div className={styles.searchBar}>
         <BsSearch className={styles.searchIcon} />
