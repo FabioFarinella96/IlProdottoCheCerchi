@@ -4,7 +4,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: white;
   border-bottom: 1px solid #dcdcdc;
+  position: fixed;
+  top: 12vh;
+  left: 0;
 
   .navBar {
     display: flex;

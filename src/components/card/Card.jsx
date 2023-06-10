@@ -5,7 +5,7 @@ const Card = ({ product }) => {
 
   return (
     <div className={styles.Card}>
-      <a href={link}>
+      <a href={link} target="_blank">
         <img src={img} alt={title} />
         <div className={styles.text}>
           <p className={styles.title}>{title}</p>
