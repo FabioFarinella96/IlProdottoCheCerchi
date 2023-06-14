@@ -1,5 +1,38 @@
-.CategoryCard{
-    .title{
-        color: red;
+.CategoryCard {
+  width: 250px;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 12px;
+  padding: 0 20px 20px 20px;
+
+  .title {
+    color: rgb(50, 50, 50);
+  }
+
+  .list {
+    padding: 0;
+    li {
+      list-style-type: none;
+      margin-bottom: 7px;
+      cursor: pointer;
+
+      &:hover {
+        color: #02cf87;
+      }
     }
+  }
+
+  .button {
+    width: 100%;
+    border: 0;
+    border-radius: 12px;
+    padding: 10px 20px;
+    background-color: #02cf87;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .CategoryCard {
+    width: 300px;
+  }
 }

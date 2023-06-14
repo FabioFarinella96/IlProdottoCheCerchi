@@ -9,6 +9,7 @@ import Layout from "@/src/Layout";
 // components
 import Hero from "@/src/components/hero";
 import CardList from "@/src/components/cardList";
+import CookieAccept from "@/src/components/cookieAccept";
 
 export default function Home() {
   const [data, setData] = useState(products);
@@ -26,6 +27,7 @@ export default function Home() {
           <Hero />
           <CardList data={data} />
         </main>
+        <CookieAccept />
       </Layout>
     </>
   );

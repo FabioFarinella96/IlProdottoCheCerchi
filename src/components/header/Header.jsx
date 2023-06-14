@@ -17,7 +17,9 @@ const Header = ({ setIsOpenModal }) => {
         <Link className={styles.nav} href="/">
           <li>Home</li>
         </Link>
-        <li>Categorie</li>
+        <Link className={styles.nav} href="categorie">
+          <li>Categorie</li>
+        </Link>
         <Link className={styles.nav} href="chi-siamo">
           <li>Chi siamo</li>
         </Link>
